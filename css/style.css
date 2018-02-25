@@ -1,0 +1,29 @@
+#container {
+	width: 100%;
+	min-height: 200px;
+}
+#left, #right {
+	min-height: 200px;
+	margin: auto;
+}
+#left, .left_row {
+	width: 50%;
+	float: left;
+}
+#right, .right_row {
+	width: 50%;
+	float: right;
+}
+.right_row {
+	text-align: right;
+}
+.right_row, .left_row {
+	min-height: 50px;
+}
+#nav {
+	text-align: center;
+}
+.nav {
+	border: 1px solid black;
+	padding: 5px;
+}
